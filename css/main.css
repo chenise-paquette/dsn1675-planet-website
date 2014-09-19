@@ -42,34 +42,34 @@ img {
 }
 
 .nav {
-    margin: 0;
     padding:0;
     list-style-type: none;
 }
 
-.nav a{
+.nav a {
     display: block;
-    padding: 0.25em;
+    padding: 0;
     text-decoration: none;
     color: #0074D9
 }
 
 @media only screen and (min-width: 26em) {
     
-    .nav li {
-     display:inline-block;
-    }
+.nav li {
+ display:inline-block;
+}
     
-    .nav {
-    text-align: center;
-    }
+.nav {
+ text-align: center;
+}
     
 @media only screen and (min-width: 44em) {
     
 .title {
     float:left;
-}
+ }
 
 .nav {
     float: left;
+ }
 }
