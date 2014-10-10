@@ -52,7 +52,6 @@ img {
 
 .nav a {
     display: block;
-    padding: 0;
     text-decoration: none;
     color: #0074D9
 }
@@ -77,6 +76,8 @@ img {
 .intro {
     text-align: center;
 }
+
+.
 @media only screen and (min-width: 20em) {
     
 .nav li {
