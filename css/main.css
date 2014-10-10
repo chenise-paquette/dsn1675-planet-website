@@ -57,6 +57,23 @@ img {
     color: #0074D9
 }
 
+.nav a:hover {
+    background-color: blue ;
+    color: white ;
+}
+
+.footer {
+    background-color: #e2e2e2;
+}
+
+.sectionlight {
+    background-color: #efefef ;
+}
+
+.sectionmedium {
+    background-color: #e2e2e2 ;
+}
+
 @media only screen and (min-width: 26em) {
     
 .nav li {
@@ -77,3 +94,6 @@ img {
     float: left;
  }
 }
+    
+
+    
