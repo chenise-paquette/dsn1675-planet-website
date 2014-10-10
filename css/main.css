@@ -63,7 +63,7 @@ img {
 }
 
 .footer {
-    background-color: #e2e2e2;
+    background-color: #ccc;
 }
 
 .sectionlight {
@@ -74,6 +74,9 @@ img {
     background-color: #e2e2e2 ;
 }
 
+.intro {
+    text-align: center;
+}
 @media only screen and (min-width: 20em) {
     
 .nav li {
