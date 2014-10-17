@@ -86,6 +86,14 @@ img {
     background-color: #ccc;
 }
 
+.footer a:: after {
+    content: " ·";
+}
+
+.footer li:last-child a::after{
+    content: none;
+}
+
 .sectionlight {
     background-color: #efefef ;
 }
@@ -125,7 +133,7 @@ img {
  }
     
 .navbottom {
-    float:right;
+   float:right;
 }
     
 .copyright {
