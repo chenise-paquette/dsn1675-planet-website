@@ -16,6 +16,27 @@ html {
   text-size-adjust: 100%;
 }
 
+@media only screen and (min-width: 60em) {
+   
+    html {
+        font-size: 110%;
+    }
+}
+    
+@media only screen and (min-width: 90em) {
+     
+    html {
+        font-size: 120%;
+    }
+}
+    
+@media only screen and (min-width: 120em) {
+     
+    html {
+        font-size: 130%;
+    }
+}
+    
 *, *:before, *:after {
   box-sizing: inherit;
 }
@@ -87,6 +108,11 @@ img {
 .nav {
  text-align: center;
 }
+
+.copyright {
+    text-align:center;
+}
+}
     
 @media only screen and (min-width: 44em) {
     
@@ -97,6 +123,32 @@ img {
 .nav {
     float: left;
  }
+    
+.navbottom {
+    float:right;
+}
+    
+.copyright {
+    text-align: left;
+}
+
+dl {
+  overflow: hidden;
+  
+}
+
+dt {
+  clear: left;
+  float: left;
+  width: 10em;
+}
+
+dd {
+  float: left;
+  margin: 0;
+  padding: 0;
+}
+
 }
     
 
