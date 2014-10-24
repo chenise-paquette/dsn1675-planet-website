@@ -12,14 +12,18 @@
 
 </head>
 <body>
+<ul class="skip-links">
+    <li><a href="#main">Skip to main content</a></li>
+    <li><a href="#navagation">Skip to main navagation</a></li>
+ </ul>
 
-<header class="header">
+<header role="banner" class="header">
 <div class="grid">
     <div class="unit unit-xs-1 unit-s-1 unit-m-1-3 unit-l-1-4">
-        <h1 class="title peta gutter pad-t push-0 ">Jupiter</h1>
+        <h1 class="title peta gutter pad-t push-0">Jupiter</h1>
     </div>
     <div class="unit unit-xs-1 unit-s-1 unit-m-2-3 unit-l-3-4">
-        <nav>
+        <nav role="navigation" id="navagation">
             <ul class="nav mega gutter pad-t">
             <li><a class="island-half" href="index.html">Planet</a></li>
             <li><a class="island-half" href="moons.html">Moons</a></li>
@@ -28,44 +32,46 @@
         </nav>
     </div>
 </div>
-<h2 class=" intro sub-title tera gutter pad-t pad-b">Jupiter, the fith planet from the sun</h2>
+<h2 class="intro sub-title tera gutter pad-t pad-b">Jupiter, the fith planet from the sun</h2>
 </header>
     
+<main role="main" id="main">
+    
 <div class="grid">
-    <div clas="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2">
+    <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2">
         <img src="images/jupiter.jpg" alt="Jupiter">
     </div>
     <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2">
         <h2 class="exa gutter">Jupiter</h2>
-        <p class="micro gutter">Jupiter is the fifth planet from the Sun and the largest planet in the Solar System. It is a gas giant with mass one-thousandth of that of the Sun but is two and a half times the mass of all the other planets in the Solar System combined.</p>
+        <p class="gutter">Jupiter is the fifth planet from the Sun and the largest planet in the Solar System. It is a gas giant with mass one-thousandth of that of the Sun but is two and a half times the mass of all the other planets in the Solar System combined.</p>
     </div>
 
 <div class="grid sectionlight pad-t">
-    <div class="unit unit-xs-1 unit-s-1 unit-m-1-3 unit-l-1-3 ">
+    <div class="unit unit-xs-1 unit-s-1 unit-m-1-3 unit-l-1-3">
             <figure>
                 <img src="images/jupiter-two.jpg" alt="great red spot">
-                <figcaption class="mirco gutter pad-t">This view of Jupiter's Great Red Spot.</figcaption>
+                <figcaption class="kilo gutter pad-t">This view of Jupiter's Great Red Spot.</figcaption>
             </figure>
     </div>
     
     <div class="unit unit-xs-1 unit-s-1 unit-m-1-3 unit-l-1-3">
         <figure>
             <img src="images/jupiter-three.jpg" alt="false-colour">
-            <figcaption class="mirco gutter pad-t">False-color detail of Jupiter's atmosphere.</figcaption>
+            <figcaption class="kilo gutter pad-t">False-color detail of Jupiter's atmosphere.</figcaption>
         </figure>
     </div>     
  
     <div class="unit unit-xs-1 unit-s-1 unit-m-1-3 unit-l-1-3">
             <figure>
             <img src="images/jupiter-four.jpg" alt="inferred">
-            <figcaption class="micro gutter pad-t"> Infrared image of Jupiter taken by the ESO's Very Large Telescope</figcaption>
+            <figcaption class="kilo gutter pad-t"> Infrared image of Jupiter taken by the ESO's Very Large Telescope</figcaption>
             </figure>
         </div>
     </div>
 </div>
  
 <div class="grid sectionmedium gutter pad-t"> 
-    <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2 ">
+    <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2">
     <h3 class="giga">Orbital Characteristics</h3>
         <dl class="micro">
             <dt>Aphelion</dt>
@@ -82,7 +88,7 @@
        </dl>
 </div>    
 
-    <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2 ">
+    <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2">
       <h3 class="giga">Physical Characteristics</h3>
         <dl class="micro">
             <dt>Mean radius</dt>
@@ -100,12 +106,14 @@
     </div>
 </div>
     
+</main>
+    
 <footer class="footer">
 <div class="grid">
-    <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2 ">
+    <div role="contentinfo" class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2">
         <p class="copyright micro pad-t-1-2 push-0"> © 2014 Jupiter Planetary consortium </p>
     </div>
-<div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2 ">
+<div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2">
     <nav>
         <ul class="navbottom nav micro pad-t-1-2 push-1-2">
         <li><a href="index.html">Planet</a></li>
