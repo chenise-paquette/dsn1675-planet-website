@@ -85,6 +85,14 @@ img {
 
 .intro {
     background-color: #e2e2e2;
+    margin:0;
+    padding:0;
+}
+ 
+h1{
+    text-align: center;
+    margin:0;
+    padding: 0;
 }
 
 .header {
@@ -106,7 +114,7 @@ img {
 .nav a {
     display: block;
     text-decoration: none;
-    color: #0074D9
+    color: white;
 }
 
 .nav a:hover {
@@ -127,11 +135,11 @@ img {
 }
 
 .sectionlight {
-    background-color: #efefef ;
+    background-color: #ff9933 ;
 }
 
 .sectionmedium {
-    background-color: #e2e2e2 ;
+    background-color: #0074D9 ;
 }
 
 .intro {
@@ -156,6 +164,10 @@ button {
     height:15em;
 }
 
+.whitetype{
+    color:white;
+}
+
 @media only screen and (min-width: 20em) {
     
 .nav li {
@@ -176,7 +188,6 @@ input + label {
 
 .copyright {
     text-align:center;
-}
 }
     
 @media only screen and (min-width: 44em) {
@@ -205,7 +216,7 @@ dl {
 dt {
   clear: left;
   float: left;
-  width: 10em;
+  width: 8em;
 }
 
 dd {
@@ -214,7 +225,9 @@ dd {
   padding: 0;
 }
 
-.field{
+}
+
+/*/  .field{
     font-size: 1.5em;
     padding: 0.5em;
     border-radius: 4px;
@@ -227,8 +240,5 @@ dd {
     color: #fff;
     outline: 3px solid #000;
 }
-
-}
-    
 
     
